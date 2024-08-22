@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link href="css/login.css" rel="stylesheet">
+  <link rel="stylesheet" href="assets/normalize.css">
+</head>
+<body>
+
+<div class="container-fluid p-0">
+  <div class="row justify-content-center align-items-center h-100 m-0">
+    <div class="col-12 p-0">
+      <div class="login-card">
+        <div class="col-md-6 d-flex align-items-center justify-content-center form-container">
+          <div class="form-content">
+            <img src="assets/image/logo-se10.jpg" class="logo" alt="Logo">
+            <h3>Login</h3>
+            <form>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" class="form-control" id="email" placeholder="username@gmail.com">
+              </div>
+              <div class="form-group password-input">
+                <label for="password">Password</label>
+                <input type="password" class="form-control" id="password" placeholder="Password">
+                <span class="toggle-password" onclick=""><i class="fa-regular fa-eye-slash"></i></span>
+              </div>
+              <div class="form-group text-right">
+                <a href="#" class="text-red forgetPw">Forgot Password?</a>
+              </div>
+              <button type="submit" class="btn btn-custom">Sign in</button>
+              <div class="text-center text-black word">Or Continue With</div>
+              <div class="social-login d-flex justify-content-between mt-3 icons">
+                <a href="#" class="btn btn-light">
+                  <img src="assets/icons/google.png" alt="Google" style="width: 40px; height: 40px;">
+                </a>
+                <a href="#" class="btn btn-light">
+                  <img src="assets/icons/github.png" alt="Facebook" style="width: 40px; height: 40px;">
+                </a>
+                <a href="#" class="btn btn-light">
+                  <img src="assets/icons/facebook.png" alt="Twitter" style="width: 40px; height: 40px;">
+                </a>
+              </div>
+              <div class="sign-up text-center mt-3">
+                <span class="text-black">Don't have an account yet? </span><a href="#" class="signup-word">Sign Up here</a>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="col-md-6 p-0 image-container">
+          <img src="assets/image/login-image.png" alt="Illustration">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
