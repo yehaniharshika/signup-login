@@ -99,6 +99,17 @@ body {
     width: 100%;
 }
 
+.back-link{
+    color: black;
+    font-weight: 700;
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+}
+
+.back-link i{
+    color: white;
+    font-weight: 900;
+}
 .btn-custom {
     background-color: red;
     color: #fff;
